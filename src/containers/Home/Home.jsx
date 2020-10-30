@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from axios;
 
 
 class Home extends Component {
@@ -51,11 +52,25 @@ class Home extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">1st Image</th>
+                                    <td>1st Image</td>
                                     <td>Justin</td>
                                     <td>678-434-2334</td>
                                     <td>justin@gmail.com</td>
                                     <td>09-03-1995</td>
+                                </tr>
+                                <tr>
+                                    <td>2nd Image</td>
+                                    <td>Grayson</td>
+                                    <td>678-534-9878</td>
+                                    <td>grayson@gmail.com</td>
+                                    <td>08-19-1996</td>
+                                </tr>
+                                <tr>
+                                    <td>3rd Image</td>
+                                    <td>Rayshawn</td>
+                                    <td>678-212-7865</td>
+                                    <td>ray@gmail.com</td>
+                                    <td>11-18-1995</td>
                                 </tr>
                             </tbody>
                         </table>
