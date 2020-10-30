@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from axios;
+import axios from "axios";
 
 
 class Home extends Component {
@@ -10,7 +10,7 @@ class Home extends Component {
     };
 
     componentDidMount() {
-        axios.get("https://cors-anywhere.herokuapp.com/https://randomuser.me/api/").then((response) => {
+        axios.get("https://cors-anywhere.herokuapp.com/https://randomuser.me/api/?results=10").then((response) => {
             console.log(response.data);
             this.setState({
                 users: response.data,
