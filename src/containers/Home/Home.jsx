@@ -4,8 +4,19 @@ import axios from axios;
 
 class Home extends Component {
     state = {
-        search: ""
-    }
+        search: "",
+        users: []
+
+    };
+
+    componentDidMount() {
+        axios.get("https://cors-anywhere.herokuapp.com/https://randomuser.me/api/").then((response) => {
+            console.log(response.data);
+            this.setState({
+                users: response.data,
+            });
+        });
+    };
 
     handleInputChange = (event) => {
         const {name, value} = event.target;
@@ -13,7 +24,7 @@ class Home extends Component {
             [name]: value,
         })
         
-    }
+    };
 
 
     render() {
