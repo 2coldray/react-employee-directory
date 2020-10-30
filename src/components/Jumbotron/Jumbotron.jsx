@@ -6,7 +6,7 @@ const Jumbotron = () => {
       <div className="container">
         <h1 className="display-4 text-center">Employee Directory</h1>
         <p className="lead text-center">
-            Click on name the name heading to filter by heading or use the search box to narrow your results.
+            Click on name the name heading to filter by heading or use the search box to narrow your results by phone number.
         </p>
       </div>
     </div>
