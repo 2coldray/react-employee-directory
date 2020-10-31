@@ -4,7 +4,7 @@
 The Employee Directory application allows users to view their entire employee's directory at once while having the options to sort employee's by name and search for them by name as well.
 
 ## Installation
-1. Go to this website:
+1. Go to this website: [React Employee Directory](https://2coldray.github.io/react-employee-directory)
 2. Click the "Name" heading to sort the employee's alphabetically. One click will sort them from A-Z. Another click will sort them from Z-A. Any additional clicks will just keep toggling between A-Z and Z-A.
 3. To search for an employee by name, type their name in the search bar and that will filter the results.
 
