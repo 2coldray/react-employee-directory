@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Jumbotron />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/react-employee-directory" component={Home} />
       </Switch>
     </Router>
     </>
